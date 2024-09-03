@@ -3,9 +3,7 @@ import "~/styles/globals.css";
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import Header from "~/components/Header";
-
 import Footer from "~/components/Footer";
-=======
 
 export const metadata: Metadata = {
   title: "Victory Vault",
@@ -22,8 +20,6 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-=======
-
       </body>
     </html>
   );
