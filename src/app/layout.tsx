@@ -4,6 +4,9 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import Header from "~/components/Header";
 
+import Footer from "~/components/Footer";
+=======
+
 export const metadata: Metadata = {
   title: "Victory Vault",
   description: "The better BCP solution!",
@@ -18,6 +21,9 @@ export default function RootLayout({
       <body className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <Header />
         {children}
+        <Footer />
+=======
+
       </body>
     </html>
   );
